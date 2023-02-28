@@ -1,1 +1,4 @@
 /venv
+/Product_design_webproject/Product_design_webproject/__pycache__/
+/Product_design_webproject/Product_design_webapp/__pycache__/
+/Product_design_webproject/Product_design_webapp/migrations/__pycache__/
