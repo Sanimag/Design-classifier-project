@@ -8,8 +8,8 @@ import sklearn
 from sklearn import preprocessing
 from torch.utils.data import DataLoader
 
-vocab = np.load("/content/drive/MyDrive/design_classfier/vocab.npy", allow_pickle=True)
-weights_matrix = np.load("/content/drive/MyDrive/design_classfier/weights_matrix.npy", allow_pickle=True)
+vocab = np.load("vocab.npy", allow_pickle=True)
+weights_matrix = np.load("weights_matrix.npy", allow_pickle=True)
 
 le = preprocessing.LabelEncoder()
 le.fit(vocab)
@@ -168,3 +168,5 @@ STD_SCALER = 0.43327774
 
 
 net = Validator(weight_matrix=weights_matrix, hidden_size=50, num_classes=1)
+#model.load_state_dict(torch.load(PATH))
+net.load_state_dict("models.pt")
