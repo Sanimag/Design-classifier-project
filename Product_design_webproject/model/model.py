@@ -170,3 +170,4 @@ STD_SCALER = 0.43327774
 net = Validator(weight_matrix=weights_matrix, hidden_size=50, num_classes=1)
 #model.load_state_dict(torch.load(PATH))
 net.load_state_dict("models.pt")
+net.eval()
