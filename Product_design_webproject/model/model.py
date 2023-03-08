@@ -171,3 +171,14 @@ net = Validator(weight_matrix=weights_matrix, hidden_size=50, num_classes=1)
 #model.load_state_dict(torch.load(PATH))
 net.load_state_dict("models.pt")
 net.eval()
+#reshape image
+
+transfrom = transforms.ToTensor()# apply this to inputs
+
+# say image and text (text should be a list of word strings)
+
+# output = model(text, image)
+
+# output*STD_SCALER + MEAN_SCALER
+
+# return output
