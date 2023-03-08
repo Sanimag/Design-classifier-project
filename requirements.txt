@@ -4,6 +4,7 @@ attrs==21.2.0
 Automat==20.2.0
 Babel==2.8.0
 bcrypt==3.2.0
+beautifulsoup4==4.11.2
 blinker==1.4
 Brlapi==0.8.3
 CacheControl==0.12.11
@@ -37,6 +38,7 @@ duplicity==0.8.21
 fasteners==0.14.1
 filelock==3.8.0
 future==0.18.2
+gdown==4.6.4
 html5lib==1.1
 httplib2==0.20.2
 hyperlink==21.0.0
@@ -90,6 +92,7 @@ pyparsing==2.4.7
 pyRFC3339==1.1
 pyrsistent==0.18.1
 pyserial==3.5
+PySocks==1.7.1
 python-apt==2.3.0+ubuntu2.1
 python-dateutil==2.8.1
 python-debian===0.1.43ubuntu1
@@ -106,11 +109,13 @@ service-identity==18.1.0
 shellingham==1.5.0
 six==1.16.0
 sos==4.4
+soupsieve==2.4
 sqlparse==0.4.3
 ssh-import-id==5.11
 systemd-python==234
 texttable==1.6.4
 tomlkit==0.11.6
+tqdm==4.65.0
 Twisted==22.1.0
 tzdata==2022.7
 ubuntu-advantage-tools==27.12
